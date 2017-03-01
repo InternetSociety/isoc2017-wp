@@ -1,0 +1,112 @@
+header.site-header {
+	min-height: 300px;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding: gutter-sm();
+
+	@media screen and (min-width: $screen-sm ){
+		min-height: 500px;
+	}
+
+	.container {
+		position: relative;
+		min-height: 300px;
+
+		@media screen and (min-width: $screen-sm ){
+			min-height: 500px;
+		}
+	}
+
+	h2 {
+		color: #fff;
+		font-size: 30px;
+
+		@media screen and (min-width: $screen-sm) {
+			font-size: $font-size-h2;
+			text-align: center;
+		}
+	}
+}
+
+.navbar-default {
+	@media screen and (min-width: $screen-sm) {
+		display: flex;
+	}
+}
+
+.navbar-collapse {
+	@media screen and (min-width: $screen-sm) {
+		flex-grow: 3;
+		padding: 0;
+	}
+}
+
+nav.navbar-default {
+	position: fixed;
+	left: 15px; right: 15px;
+
+	z-index: 1;
+
+	border: 0px solid #fff;
+
+	@media screen and (min-width: $screen-sm){
+		top: gutter(1.5);
+		left: auto; right: auto;
+		width: 737px;
+		box-shadow: 0 1px 3px 1px rgba(0,0,0,0.4);
+	}
+
+	@media screen and (min-width: $screen-md) {
+		width: 970px;
+	}
+
+	@media screen and (min-width: $screen-lg) {
+		width: 1170px;
+	}
+
+	.navbar-brand {
+		background-color: #fff;
+		padding: 13px 15px;
+		width: 75%;
+
+		@include hocus {
+			background-color: #fff;
+		}
+
+		img {
+			height: auto;
+			max-height: 60px;
+
+			@media screen and (min-width: $screen-sm){
+				max-width: 200px;
+			}
+		}
+	}
+
+	.navbar-header {
+		background-color: #fff;
+		width: 100%;
+
+		@media screen and (min-width: $screen-sm) {
+			width: auto;
+		}
+
+	}
+}
+
+section.header {
+	padding: 0;
+
+	.ankeiler {
+		position: absolute;
+		top: 50%; transform: translateY(-50%);
+		width: 100%;
+		padding: 0 25%;
+
+		text-align: center;
+
+		h2 {
+			color: #fff;
+		}
+	}
+}

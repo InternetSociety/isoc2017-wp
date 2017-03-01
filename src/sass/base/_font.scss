@@ -1,0 +1,39 @@
+$font-name: "hind-regular-webfont";
+@font-face {
+	font-family: "Hind";
+	src: url("../fonts/hind/#{$font-name}.woff2") format("woff2"),
+		 url("../fonts/hind/#{$font-name}.woff") format("woff"),
+		 url("../fonts/hind/#{$font-name}.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+$font-name: "hind-bold-webfont";
+@font-face {
+	font-family: "Hind";
+	src: url("../fonts/hind/#{$font-name}.woff2") format("woff2"),
+		 url("../fonts/hind/#{$font-name}.woff") format("woff"),
+		 url("../fonts/hind/#{$font-name}.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+$font-name: "hind-semibold-webfont";
+@font-face {
+	font-family: "Hind";
+	src: url("../fonts/hind/#{$font-name}.woff2") format("woff2"),
+		 url("../fonts/hind/#{$font-name}.woff") format("woff"),
+		 url("../fonts/hind/#{$font-name}.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+$font-name: "hind-light-webfont";
+@font-face {
+	font-family: "Hind";
+	src: url("../fonts/hind/#{$font-name}.woff2") format("woff2"),
+		 url("../fonts/hind/#{$font-name}.woff") format("woff"),
+		 url("../fonts/hind/#{$font-name}.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}

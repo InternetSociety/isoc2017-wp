@@ -1,0 +1,17 @@
+ol.breadcrumb {
+    margin: 0 0 gutter-sm() 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        display: inline;
+        
+        + li {
+            &:before {
+                padding-left: 5px;
+                padding-right: 5px;
+                content:"\203A";
+            }
+        }
+    }
+}

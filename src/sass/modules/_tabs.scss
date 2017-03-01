@@ -1,0 +1,8 @@
+div[role=tabpanel] {
+	margin-bottom: gutter();
+}
+
+.tab-content {
+	margin: $nav-link-padding;
+	margin-bottom: gutter();
+}

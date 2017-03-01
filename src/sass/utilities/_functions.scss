@@ -1,0 +1,16 @@
+/* functions */
+@function gutter-xs( $qty: 0.25 ) {
+	@return gutter( $qty );
+}
+
+@function gutter-sm( $qty: 0.50 ) {
+	@return gutter( $qty );
+}
+
+@function gutter( $qty: 1 ) {
+	@return $qty * ( $grid-gutter-width );
+}
+
+@function gutter-lg( $qty: 2 ) {
+	@return $qty * ( $grid-gutter-width );
+}

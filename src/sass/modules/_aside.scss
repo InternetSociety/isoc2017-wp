@@ -1,0 +1,11 @@
+aside {
+	padding: 0 !important;
+
+	li {
+		padding: gutter-sm();
+
+		h2 {
+			margin-top: 13px;
+		}
+	}
+}

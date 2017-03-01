@@ -1,0 +1,142 @@
+/*==============================================================================
+
+	This website/webapplication is developed by:
+	Occhio BV
+	http://www.occhio.nl/
+	info@occhio.nl
+	+31 (0)20 320 78 70
+
+==============================================================================*/
+
+/* ============================================================================= 
+	STYLES FOR PRINT-CONTENT 
+============================================================================= */
+
+* {
+	overflow: visible !important; /* Required for FireFox pre-3.6 to print past page 1 */
+}
+
+body * {	
+	border: 0;
+	color: #000;		
+	background : #fff;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;  
+	font-size: 11pt;
+	line-height: 18pt;
+	float: none !important; /* Required for FireFox pre-3.6 to print past page 1 */
+}
+
+body {
+	padding: 30pt 50pt 40pt 50pt;
+}
+	
+body,
+input,	
+textarea,
+select {
+	font-family: "Times New Roman", Times, serif;
+}
+	
+a.skipmenu {
+	display: none;
+}
+
+h1 {	
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	font-size: 24pt;
+	line-height: 24pt;
+	margin: 0 0 6pt 0;
+}
+	
+h2 {
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	font-size: 20pt;	
+	line-height: 20pt;
+	margin: 0 0 3pt 0;
+}
+	
+h3, 
+h4, 
+h5, 
+h6 {
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	font-size: 14pt;
+	line-height: 14pt;
+	margin: 0 0 0 0;
+}
+	
+h4,
+h5, 
+h6 {
+	font-weight: bold;
+	font-size: 10pt;
+}
+	
+a, 
+a:link, 
+a:visited, 
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}	
+	
+h1, 
+h2, 
+h3, 
+h4,
+h5, 
+h6, 
+legend {
+	page-break-after: avoid;
+}
+	
+table tr, 
+ul, 
+ol,
+img {
+	page-break-inside: avoid;
+}	
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 30pt;
+}
+
+article {		
+	a {
+		font-weight: bolder;
+		text-decoration: none;
+	}
+	
+	a[href^=mailto]:after,
+	a[href^=http]:after {
+		content:" <" attr(href) "> ";
+	}
+	
+	a[href^="#"]:after {
+		content: "";
+	}
+}
+
+* {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+// don't print:
+nav,
+.site-footer { 
+	display: none;
+}
+
+.page {
+	height: auto;
+}

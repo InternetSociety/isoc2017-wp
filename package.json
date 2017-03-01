@@ -1,0 +1,42 @@
+{
+  "name": "Occhio",
+  "version": "2.0.0",
+  "description": "Gulp File",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Occhio BV",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-check-es2015-constants": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.17.3",
+    "classlist-polyfill": "^1.0.3",
+    "fontfacegen": "^0.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-css-url-adjuster": "^0.2.3",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-header": "^1.8.8",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "imagemin-svgo": "^5.2.0",
+    "rsyncwrapper": "^2.0.1"
+  }
+}

@@ -1,0 +1,30 @@
+# This is a template .gitignore file for git-managed WordPress projects.
+#
+
+# Ignore everything in the "dist" directory, except the files you
+# specify (see the commented-out example for a hint on how to do this.)
+dist/*
+dist/css/
+dist/fonts/
+dist/img/
+dist/js/
+
+# ignore unimportant files
+
+.DS_Store
+.DS_Store?
+.TemporaryItems
+._*
+.Spotlight-V100
+.Trashes
+.svn
+.ftppass
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ignore sass outputfile and cache
+.sass-cache
+
+# ignore large folders
+node_modules

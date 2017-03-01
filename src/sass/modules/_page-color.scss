@@ -1,0 +1,33 @@
+main.container {
+	padding: 0;
+}
+
+.home, .single-post, .error404, .search, .beige {
+	@include page-color($broken-white);
+}
+
+.turquoise {
+	@include page-color($turquoise);
+}
+
+
+.purple {
+	@include page-color($purple);
+	@include light-text();
+}
+
+.single-event, .blue {
+	@include page-color($blue);
+	@include light-text();
+}
+
+.yellow {
+	@include page-color($yellow);
+}
+
+body {
+	a.btn {
+		color: #000;
+		text-decoration: none;
+	}
+}

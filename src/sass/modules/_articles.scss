@@ -1,0 +1,16 @@
+section.items {
+	padding: 0;
+
+	img {
+		float: left;
+		padding-right: gutter-sm();
+	}
+
+	> header {
+		padding: 0 gutter();
+	}
+
+	> article {
+		padding: 0 gutter() gutter-sm() gutter();
+	}
+}

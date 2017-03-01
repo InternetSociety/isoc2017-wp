@@ -1,0 +1,225 @@
+/* Bootstrap 5 columns extension 
+----------------------------------------*/
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5,
+.col-xs-2-5, .col-sm-2-5, .col-md-2-5, .col-lg-2-5,
+.col-xs-3-5, .col-sm-3-5, .col-md-3-5, .col-lg-3-5,
+.col-xs-4-5, .col-sm-4-5, .col-md-4-5, .col-lg-4-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: $grid-gutter-width / 2;
+	padding-left: $grid-gutter-width / 2;
+}	
+
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+
+.col-xs-2-5 {
+	width: 40%;
+	float: left;
+}
+	
+.col-xs-3-5 {
+	width: 60%;
+	float: left;
+}
+	
+.col-xs-4-5 {
+	width: 80%;
+	float: left;
+}
+
+.col-xs-pull-1-5 {
+	right: 20%;
+}
+
+.col-xs-push-1-5 {
+	left: 20%;
+}
+
+.col-xs-pull-2-5 {
+	right: 40%;
+}
+
+.col-xs-push-2-5 {
+	left: 40%;
+}
+
+.col-xs-pull-3-5 {
+	right: 60%;
+}
+
+.col-xs-push-3-5 {
+	left: 60%;
+}
+
+.col-xs-pull-4-5 {
+	right: 80%;
+}
+
+.col-xs-push-4-5 {
+	left: 80%;
+}
+
+@media (min-width: $screen-sm) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+
+	.col-sm-2-5 {
+		width: 40%;
+		float: left;
+	}
+
+	.col-sm-3-5 {
+		width: 60%;
+		float: left;
+	}
+
+	.col-sm-4-5 {
+		width: 80%;
+		float: left;
+	}
+
+	.col-sm-pull-1-5 {
+		right: 20%;
+	}
+
+	.col-sm-push-1-5 {
+		left: 20%;
+	}
+
+	.col-sm-pull-2-5 {
+		right: 40%;
+	}
+
+	.col-sm-push-2-5 {
+		left: 40%;
+	}
+
+	.col-sm-pull-3-5 {
+		right: 60%;
+	}
+
+	.col-sm-push-3-5 {
+		left: 60%;
+	}
+
+	.col-sm-pull-4-5 {
+		right: 80%;
+	}
+
+	.col-sm-push-4-5 {
+		left: 80%;
+	}
+}
+
+@media (min-width: $screen-md) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+
+	.col-md-2-5 {
+		width: 40%;
+		float: left;
+	}
+
+	.col-md-3-5 {
+		width: 60%;
+		float: left;
+	}
+
+	.col-md-4-5 {
+		width: 80%;
+		float: left;
+	}
+
+	.col-md-pull-1-5 {
+		right: 20%;
+	}
+
+	.col-md-push-1-5 {
+		left: 20%;
+	}
+
+	.col-md-pull-2-5 {
+		right: 40%;
+	}
+
+	.col-md-push-2-5 {
+		left: 40%;
+	}
+
+	.col-md-pull-3-5 {
+		right: 60%;
+	}
+
+	.col-md-push-3-5 {
+		left: 60%;
+	}
+
+	.col-md-pull-4-5 {
+		right: 80%;
+	}
+
+	.col-md-push-4-5 {
+		left: 80%;
+	}
+}
+
+@media (min-width: $screen-lg) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+
+	.col-lg-2-5 {
+		width: 40%;
+		float: left;
+	}
+
+	.col-lg-3-5 {
+		width: 60%;
+		float: left;
+	}
+
+	.col-lg-4-5 {
+		width: 80%;
+		float: left;
+	}
+
+	.col-lg-pull-1-5 {
+		right: 20%;
+	}
+
+	.col-lg-push-1-5 {
+		left: 20%;
+	}
+
+	.col-lg-pull-2-5 {
+		right: 40%;
+	}
+
+	.col-lg-push-2-5 {
+		left: 40%;
+	}
+
+	.col-lg-pull-3-5 {
+		right: 60%;
+	}
+
+	.col-lg-push-3-5 {
+		left: 60%;
+	}
+
+	.col-lg-pull-4-5 {
+		right: 80%;
+	}
+
+	.col-lg-push-4-5 {
+		left: 80%;
+	}
+}	

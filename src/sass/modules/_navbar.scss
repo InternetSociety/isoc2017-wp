@@ -1,0 +1,142 @@
+ul.navbar-nav {
+	margin: 0;
+	height: 60px;
+
+	@media screen and (min-width: $screen-sm){
+		display: flex;
+		flex: 1;
+		flex-direction: row;
+		position: static;
+		width: 100%;
+		z-index: 1;
+	}
+
+	li {
+		display: inline-block;
+		width: 100%;
+
+		@media screen and (min-width: $screen-sm){
+			width: 25%;
+		}
+		@media screen and (min-width: $screen-xs) and (max-width: $screen-lg) {
+			font-size: 15px;
+		}
+
+		a {
+			padding: gutter-sm() 0;
+			border-bottom: 1px solid transparent;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		&.active a {
+			&:after {
+				content: "";
+				display: block;
+				width: 90%; height: 1px;
+				margin: 0 auto;
+
+				background-color: white;
+			}
+		}
+	}
+
+	li:nth-child(1) {
+		background-color: $dark-blue;
+
+		@include hocus {
+			background-color: lighten($dark-blue, 10%);
+		}
+	}
+
+	li:nth-child(2) {
+		background-color: $turquoise;
+
+		@include hocus {
+			background-color: lighten($turquoise, 10%);
+		}
+	}
+
+	li:nth-child(3) {
+		background-color: $purple;
+
+		@include hocus {
+			background-color: lighten($purple, 10%);
+		}
+	}
+
+	li:nth-child(4) {
+		background-color: $yellow;
+
+		a {
+			color: $text-color;
+		}
+
+		@include hocus {
+			background-color: lighten($yellow, 10%);
+
+			a {
+				color: $text-color;
+			}
+		}
+	}
+
+	&.light {
+		a {
+			color: $text-color;
+
+			@include hocus {
+				color: $text-color;
+			}
+		}
+
+		li.active a {
+			color: $text-color;
+			border-bottom: 1px solid $text-color;
+
+			@include hocus {
+				color: $text-color;
+			}
+		}
+
+		li:nth-child(1) {
+			background-color: $turquoise-light;
+
+			@include hocus {
+				background-color: darken($turquoise-light, 10%);
+			}
+		}
+
+		li:nth-child(2) {
+			background-color: $gray-light;
+
+			@include hocus {
+				background-color: darken($gray-light, 10%);
+			}
+		}
+
+		li:nth-child(3) {
+			background-color: $purple-light;
+
+			@include hocus {
+				background-color: darken($purple-light, 10%);
+			}
+		}
+
+		li:nth-child(4) {
+			background-color: $yellow-light;
+
+			@include hocus {
+				background-color: darken($yellow-light, 10%);
+			}
+		}
+	}
+}
+
+.navbar-collapse {
+	padding: 0;
+
+	&.in {
+		overflow-y: inherit;
+	}
+}

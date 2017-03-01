@@ -1,0 +1,221 @@
+//  Cross-resolution style setting
+//  h1 {
+//      @include set(font-size, (xs: 20px, sm: 24px, md: 24px, lg: 30px) ); 
+//  }
+@mixin set($property, $map) {
+	@each $item, $i in $map {
+		& {
+			@if( $item == 'xs') {
+				@media (max-width: $screen-xs-max) {
+					#{$property}: $i;
+				}        
+			}
+			@if( $item == 'sm') {
+				@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+					#{$property}: $i;
+				}        
+			}
+			@if( $item == 'md') {
+				@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+					#{$property}: $i;
+				}        
+			}
+			@if( $item == 'lg') {
+				@media (min-width: $screen-lg) {
+					#{$property}: $i;
+				}        
+			}
+		}
+	}  
+}
+
+// mixin for centering horizontally
+@mixin center-element {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* 
+  .box {
+	@include center-element;
+  }
+
+*/
+
+// mixin for centering vertically - ie10
+@mixin vertically-centred {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 
+.box {
+  @include vertically-centred;
+}
+*/
+
+
+// mixin for positioning
+@mixin position($type, $top: null, $right: null, $bottom: null, $left: null) {
+	position: $type;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+}
+
+/* 
+.box {
+  @include position(absolute, 10px, 10px, 10px, 10px);
+}
+*/
+
+// mixin for size
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+/*
+	.box {
+		@include size(300px, 600px);
+	}
+*/
+
+
+// for use by specific screen size
+@mixin respond-to($media) {
+	@if( $media == 'xs' ) {
+		@media only screen and (max-width: $screen-xs-max) { 
+			@content;
+		}
+	}
+	@else if( $media == 'sm' ) {
+		@media only screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
+			@content; 
+		}
+	}
+	@else if( $media == 'md' ) {
+		@media only screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) { 
+			@content; 
+		}
+	}
+	@else if( $media == 'lg' ) {
+		@media only screen and (min-width: $screen-lg-min) { 
+			@content; 
+		}
+	}
+}
+
+// for min width usage
+@mixin min-width($media) {
+	 @if( $media == 'xs' ) {
+		@media only screen and (min-width: $screen-xs-min) { 
+			@content; 
+		}
+	}
+	@if( $media == 'sm' ) {
+		@media only screen and (min-width: $screen-sm-min) { 
+			@content; 
+		}
+	}
+	@else if( $media == 'md' ) {
+		@media only screen and (min-width: $screen-md-min) { 
+			@content; 
+		}
+	}
+	@else if( $media == 'lg' ) {
+		@media only screen and (min-width: $screen-lg-min) { 
+			@content; 
+		}
+	}
+}
+
+// mixin for automatically including focus styles with hover
+@mixin hocus {
+	&:hover,
+	&:focus {
+		@content;
+	}
+}
+
+// mixin for crossbrowser placeholder styling
+@mixin placeholder {
+	::-webkit-input-placeholder {@content}
+	:-moz-placeholder           {@content}
+	::-moz-placeholder          {@content}
+	:-ms-input-placeholder      {@content}  
+}
+
+// usage:
+// @include placeholder {
+//     font-style:italic;
+//     color: white;
+//     font-weight:100;
+// }
+
+// page color mixin
+// mixin for the pages 
+@mixin page-color($color) {
+	
+	background-color: lighten($color, 5%);
+
+	a {
+		color: $dark-blue;
+		text-decoration: underline;
+	}
+
+	hr {
+		border-top: 1px solid darken($color, 30%);
+	}
+
+	.panel-heading {
+		background-color: lighten($color, 10%);
+	}
+
+	aside {
+		li.widget:nth-of-type(odd) {
+			background-color: $color;
+		}
+		
+		li.widget:nth-of-type(even)  {
+			background-color: lighten($color, 5%);
+		}
+	}
+
+	article {
+		background-color: lighten($color, 8%);
+		overflow: hidden;
+
+		&:nth-of-type(even) {
+			background-color: lighten($color, 12%);
+			overflow: hidden;
+		}
+
+		blockquote {
+			background-color: lighten($color, 12%);
+		}
+	}
+
+	section.items {
+		background-color: lighten($color, 8%);
+		overflow: hidden;
+		
+	}
+
+	table {
+		td, th {
+			border-top: 1px solid darken($color, 30%);
+		}
+	}
+}
+
+@mixin light-text(){
+	color: #fff;
+
+	a {
+		color: #fff;
+	}
+}
