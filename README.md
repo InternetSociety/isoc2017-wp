@@ -1,7 +1,7 @@
 Internet Society WordPress Theme
 ================================
 
-This theme is designed to be used by Internet Society (ISOC) chapters and other ISOC-related entities to create WordPress sites using the same general design as the 2017 www.isoc.nl website. For ISOC Chapters, free hosting is avilable, see below.
+This theme is designed to be used by Internet Society (ISOC) chapters and other ISOC-related entities to create WordPress sites using the same general design as the 2017 www.isoc.nl website. For ISOC Chapters, free hosting is available, see below.
 
 More information - and the theme files themselves - can be found at:
 
@@ -17,7 +17,7 @@ If you would like to see the theme in action, the following sites use it:
 
 * [isoc.nl](http://www.isoc.nl/) (ISOC Netherlands)
 
-If you are using the theme and would like to have your site listed as an example, please email info@occhio.nl
+If you are using the theme and would like to have your site listed as an example, please email voorzitter at isoc.nl
 
 ------------------------------------------------------------------------
 
@@ -28,9 +28,9 @@ For Chapters of the Internet Society, ISOCNL provides hosting free of charge wit
 
 To set up hosting, send an email at voorzitter at isoc.nl.
 
-Wordpress will then be installed for you and you will receive your personal admin access to the WP-install, a temporary url and if you wish an ftp-account.
+WordPress will then be installed for you and you will receive your personal admin access to the WP-install, a temporary url and if you wish an ftp-account.
 
-When hosted, you will still get as much freedom as possible and for instance, you will be able to create your Wordpress child theme, should you wish to make changes that cannot be accomodated in the main theme.
+When hosted, you will still get as much freedom as possible and for instance, you will be able to create your WordPress child theme, should you wish to make changes that cannot be accomodated in the main theme.
 If you wish, you can also transfer your domain to antagonist.nl.
 
 ------------------------------------------------------------------------
