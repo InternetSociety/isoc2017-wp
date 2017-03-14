@@ -1,13 +1,7 @@
 # This is a template .gitignore file for git-managed WordPress projects.
 #
 
-# Ignore everything in the "dist" directory, except the files you
-# specify (see the commented-out example for a hint on how to do this.)
-dist/*
-dist/css/
-dist/fonts/
-dist/img/
-dist/js/
+# The dist folder is not ignored, needs to be in the theme in github
 
 # ignore unimportant files
 
