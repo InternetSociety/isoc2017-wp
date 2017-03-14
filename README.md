@@ -1,15 +1,15 @@
 Internet Society WordPress Theme
 ================================
 
-This theme is designed to be used by Internet Society (ISOC) chapters and other ISOC-related entities to create WordPress sites using the same general design as the 2017 www.isoc.nl website.
+This theme is designed to be used by Internet Society (ISOC) chapters and other ISOC-related entities to create WordPress sites using the same general design as the 2017 www.isoc.nl website. For ISOC Chapters, free hosting is available, see below.
 
 More information - and the theme files themselves - can be found at:
 
-> <https://github.com/occhiobv/isoc/>
+> <https://github.com/InternetSocietyChapters/isoc2017-wp>
 
 **IMPORTANT**: If you'd encounter issues using this theme (or have suggestions for changes), please check the issue tracker and raise a new issue if necessary:
 
-> <https://github.com/occhiobv/isoc/issues>
+> <https://github.com/InternetSocietyChapters/isoc2017-wp/issues>
 
 The issue tracker is public and *viewing* the issues is open to all. *Raising* an issue requires a [Github](http://www.github.com) account, but those are available for free.
 
@@ -17,7 +17,21 @@ If you would like to see the theme in action, the following sites use it:
 
 * [isoc.nl](http://www.isoc.nl/) (ISOC Netherlands)
 
-If you are using the theme and would like to have your site listed as an example, please email info@occhio.nl
+If you are using the theme and would like to have your site listed as an example, please email voorzitter at isoc.nl
+
+------------------------------------------------------------------------
+
+Hosting
+--------------------------------------
+
+For Chapters of the Internet Society, ISOCNL provides hosting free of charge with antagonist.nl as provider.
+
+To set up hosting, send an email at voorzitter at isoc.nl.
+
+WordPress will then be installed for you and you will receive your personal admin access to the WP-install, a temporary url and if you wish an ftp-account.
+
+When hosted, you will still get as much freedom as possible and for instance, you will be able to create your WordPress child theme, should you wish to make changes that cannot be accomodated in the main theme.
+If you wish, you can also transfer your domain to antagonist.nl.
 
 ------------------------------------------------------------------------
 
@@ -64,7 +78,7 @@ The initial installation of the theme involves the following steps:
 
 To begin, you need to download a ZIP (or tar.gz) file for the latest version of the theme from this URL from the "Releases" page:
 
-> <https://github.com/occhiobv/isoc/releases>
+> <https://github.com/InternetSocietyChapters/isoc2017-wp/releases>
 
 
 > **IMPORTANT** - In order for some of the sample code to work in this documentation, you should click on "Theme download (zip)" in order to download a version of the theme that unzips into a folder called simply "isoc". If you choose the other buttons marked "Source code" it will unzip into a folder called "isoc-_version_". This will work with WordPress, but some of the examples here will need to be modified. It's easier if you just have the folder/directory named "isoc".
@@ -332,7 +346,7 @@ More information about using child themes can be found here:
 
 This WordPress theme is provided "as-is" for ISOC chapters and others to develop WordPress sites. While there are WordPress-savvy ISOC staff and volunteers able to assist, please understand that this assistance is not guaranteed to always be available. The best way to raise issues is to use the issue tracker found at:
 
-> <https://github.com/occhiobv/isoc/issues>
+> <https://github.com/InternetSocietyChapters/isoc2017-wp/issues>
 
 The issues will be posted publicly and can be responded to be others working with the theme.
 
@@ -344,7 +358,7 @@ The issues will be posted publicly and can be responded to be others working wit
 
 If you are familiar with modifying WordPress themes and want to make a direct contribution of code changes, we certainly welcome such contributions. You can either:
 
-1. [Raise an issue in the issue tracker](https://github.com/occhiobv/isoc/issues) and include your code in that issue.
+1. [Raise an issue in the issue tracker](https://github.com/InternetSocietyChapters/isoc2017-wp/issues) and include your code in that issue.
 
 2. If you are familiar with how Github works, you can fork the repository, commit your changes and issue a pull request.
 
@@ -361,7 +375,7 @@ Administrative Note
 
 A separate page on Github contains notes and the step-by-step process for packaging up a release of the theme:
 
-https://github.com/occhiobv/isoc/wiki
+https://github.com/InternetSocietyChapters/isoc2017-wp/wiki
 
 ------------------------------------------------------------------------
 
