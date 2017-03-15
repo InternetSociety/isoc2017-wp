@@ -3,6 +3,7 @@ header.site-header {
 	background-size: cover;
 	background-position: 50% 50%;
 	padding: gutter-sm();
+	
 
 	@media screen and (min-width: $screen-sm ){
 		min-height: 500px;

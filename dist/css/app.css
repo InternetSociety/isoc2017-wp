@@ -339,8 +339,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?version=1489565820848");
-  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix?version=1489565820848") format("embedded-opentype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff2?version=1489565820848") format("woff2"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff?version=1489565820848") format("woff"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.ttf?version=1489565820848") format("truetype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?version=1489565820848") format("svg");
+  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?version=1489566405083");
+  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix?version=1489566405083") format("embedded-opentype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff?version=1489566405083") format("woff"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.ttf?version=1489566405083") format("truetype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?version=1489566405083") format("svg");
 }
 
 .glyphicon {
@@ -8865,28 +8865,28 @@ article blockquote h6 {
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-regular-webfont.woff2?version=1489565820848") format("woff2"), url("../img/../fonts/hind/hind-regular-webfont.woff?version=1489565820848") format("woff"), url("../img/../fonts/hind/hind-regular-webfont.ttf?version=1489565820848") format("truetype");
+  src: url("../img/../fonts/hind/hind-regular-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-regular-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-regular-webfont.ttf?version=1489566405083") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-bold-webfont.woff2?version=1489565820848") format("woff2"), url("../img/../fonts/hind/hind-bold-webfont.woff?version=1489565820848") format("woff"), url("../img/../fonts/hind/hind-bold-webfont.ttf?version=1489565820848") format("truetype");
+  src: url("../img/../fonts/hind/hind-bold-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-bold-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-bold-webfont.ttf?version=1489566405083") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-semibold-webfont.woff2?version=1489565820848") format("woff2"), url("../img/../fonts/hind/hind-semibold-webfont.woff?version=1489565820848") format("woff"), url("../img/../fonts/hind/hind-semibold-webfont.ttf?version=1489565820848") format("truetype");
+  src: url("../img/../fonts/hind/hind-semibold-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-semibold-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-semibold-webfont.ttf?version=1489566405083") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-light-webfont.woff2?version=1489565820848") format("woff2"), url("../img/../fonts/hind/hind-light-webfont.woff?version=1489565820848") format("woff"), url("../img/../fonts/hind/hind-light-webfont.ttf?version=1489565820848") format("truetype");
+  src: url("../img/../fonts/hind/hind-light-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-light-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-light-webfont.ttf?version=1489566405083") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
