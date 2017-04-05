@@ -19,13 +19,13 @@ $aPosts = get_posts( $aArgs );
 			?>
 
 				<article id="post-<?php echo $oPost->ID; ?>">
-					
+
 					<h2><?php echo get_the_title( $oPost->ID ); ?></h2>
 
 					<?php
 						if ( has_post_thumbnail($oPost->ID) ) {
 							echo get_the_post_thumbnail($oPost->ID, 'square');
-						} 
+						}
 					?>
 
 					<div class="entry">
@@ -35,6 +35,13 @@ $aPosts = get_posts( $aArgs );
 				</article>
 
 				<?php endforeach; ?>
+				<?php
+					$postId = wp_get_post_categories($aPosts[0]->ID);
+					$postCategory = get_category($postId[0])->slug;
+				?>
+				<div class="see-all">
+					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>"><?php _e('Meer nieuws', 'od') ?></a>
+				</div>
 			</section>
 
 		<?php if( is_active_sidebar('sidebar_home') ) : ?>

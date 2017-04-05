@@ -339,8 +339,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?version=1489566405083");
-  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix?version=1489566405083") format("embedded-opentype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff?version=1489566405083") format("woff"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.ttf?version=1489566405083") format("truetype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?version=1489566405083") format("svg");
+  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?version=1491391768495");
+  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix?version=1491391768495") format("embedded-opentype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff2?version=1491391768495") format("woff2"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff?version=1491391768495") format("woff"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.ttf?version=1491391768495") format("truetype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?version=1491391768495") format("svg");
 }
 
 .glyphicon {
@@ -8756,20 +8756,20 @@ button.close {
 
 /* functions */
 
-/* 
+/*
   .box {
 	@include center-element;
   }
 
 */
 
-/* 
+/*
 .box {
   @include vertically-centred;
 }
 */
 
-/* 
+/*
 .box {
   @include position(absolute, 10px, 10px, 10px, 10px);
 }
@@ -8865,28 +8865,28 @@ article blockquote h6 {
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-regular-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-regular-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-regular-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-regular-webfont.woff2?version=1491391768495") format("woff2"), url("../img/../fonts/hind/hind-regular-webfont.woff?version=1491391768495") format("woff"), url("../img/../fonts/hind/hind-regular-webfont.ttf?version=1491391768495") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-bold-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-bold-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-bold-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-bold-webfont.woff2?version=1491391768495") format("woff2"), url("../img/../fonts/hind/hind-bold-webfont.woff?version=1491391768495") format("woff"), url("../img/../fonts/hind/hind-bold-webfont.ttf?version=1491391768495") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-semibold-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-semibold-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-semibold-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-semibold-webfont.woff2?version=1491391768495") format("woff2"), url("../img/../fonts/hind/hind-semibold-webfont.woff?version=1491391768495") format("woff"), url("../img/../fonts/hind/hind-semibold-webfont.ttf?version=1491391768495") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-light-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-light-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-light-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-light-webfont.woff2?version=1491391768495") format("woff2"), url("../img/../fonts/hind/hind-light-webfont.woff?version=1491391768495") format("woff"), url("../img/../fonts/hind/hind-light-webfont.ttf?version=1491391768495") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -9313,6 +9313,14 @@ main.container {
   background-color: #f7f6f4;
 }
 
+.home .see-all,
+.single-post .see-all,
+.error404 .see-all,
+.search .see-all,
+.beige .see-all {
+  background-color: #f7f6f4;
+}
+
 .home section.items,
 .single-post section.items,
 .error404 section.items,
@@ -9374,6 +9382,10 @@ main.container {
   background-color: #67c8bc;
 }
 
+.turquoise .see-all {
+  background-color: #67c8bc;
+}
+
 .turquoise section.items {
   background-color: #58c3b6;
   overflow: hidden;
@@ -9421,6 +9433,10 @@ main.container {
 }
 
 .purple article blockquote {
+  background-color: #ae327f;
+}
+
+.purple .see-all {
   background-color: #ae327f;
 }
 
@@ -9487,6 +9503,11 @@ main.container {
   background-color: #334d9c;
 }
 
+.single-event .see-all,
+.blue .see-all {
+  background-color: #334d9c;
+}
+
 .single-event section.items,
 .blue section.items {
   background-color: #2e458d;
@@ -9544,6 +9565,10 @@ main.container {
   background-color: #f3da82;
 }
 
+.yellow .see-all {
+  background-color: #f3da82;
+}
+
 .yellow section.items {
   background-color: #f2d56f;
   overflow: hidden;
@@ -9577,6 +9602,10 @@ body a.btn {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.see-all {
+  padding: 15px 30px;
 }
 
 div[role=tabpanel] {
