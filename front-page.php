@@ -40,7 +40,7 @@ $aPosts = get_posts( $aArgs );
 					$postCategory = get_category($postId[0])->slug;
 				?>
 				<div class="see-all">
-					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>"><?php _e('Lees all ons nieuws', 'od') ?></a>
+					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>"><?php _e('Meer nieuws', 'od') ?></a>
 				</div>
 			</section>
 
