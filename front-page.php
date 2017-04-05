@@ -18,7 +18,7 @@ $aPosts = get_posts( $aArgs );
 					setup_postdata( $oPost );
 			?>
 
-				<article class="toggle-bg-color" id="post-<?php echo $oPost->ID; ?>">
+				<article id="post-<?php echo $oPost->ID; ?>">
 
 					<h2><?php echo get_the_title( $oPost->ID ); ?></h2>
 
@@ -39,8 +39,8 @@ $aPosts = get_posts( $aArgs );
 					$postId = wp_get_post_categories($aPosts[0]->ID);
 					$postCategory = get_category($postId[0])->slug;
 				?>
-				<div class="toggle-bg-color">
-					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>">See all</a>
+				<div class="see-all">
+					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>"><?php _e('Lees all ons nieuws', 'od') ?></a>
 				</div>
 			</section>
 

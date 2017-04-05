@@ -185,8 +185,7 @@
 		}
 	}
 
-	article,
-	.toggle-bg-color {
+	article {
 		background-color: lighten($color, 8%);
 		overflow: hidden;
 
@@ -198,6 +197,9 @@
 		blockquote {
 			background-color: lighten($color, 12%);
 		}
+	}
+	.see-all {
+	  background-color: lighten($color, 12%);
 	}
 
 	section.items {
