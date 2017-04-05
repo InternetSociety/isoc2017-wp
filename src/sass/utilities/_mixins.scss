@@ -1,6 +1,6 @@
 //  Cross-resolution style setting
 //  h1 {
-//      @include set(font-size, (xs: 20px, sm: 24px, md: 24px, lg: 30px) ); 
+//      @include set(font-size, (xs: 20px, sm: 24px, md: 24px, lg: 30px) );
 //  }
 @mixin set($property, $map) {
 	@each $item, $i in $map {
@@ -8,25 +8,25 @@
 			@if( $item == 'xs') {
 				@media (max-width: $screen-xs-max) {
 					#{$property}: $i;
-				}        
+				}
 			}
 			@if( $item == 'sm') {
 				@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
 					#{$property}: $i;
-				}        
+				}
 			}
 			@if( $item == 'md') {
 				@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 					#{$property}: $i;
-				}        
+				}
 			}
 			@if( $item == 'lg') {
 				@media (min-width: $screen-lg) {
 					#{$property}: $i;
-				}        
+				}
 			}
 		}
-	}  
+	}
 }
 
 // mixin for centering horizontally
@@ -36,7 +36,7 @@
 	margin-right: auto;
 }
 
-/* 
+/*
   .box {
 	@include center-element;
   }
@@ -50,7 +50,7 @@
 	justify-content: center;
 }
 
-/* 
+/*
 .box {
   @include vertically-centred;
 }
@@ -66,7 +66,7 @@
 	left: $left;
 }
 
-/* 
+/*
 .box {
   @include position(absolute, 10px, 10px, 10px, 10px);
 }
@@ -88,23 +88,23 @@
 // for use by specific screen size
 @mixin respond-to($media) {
 	@if( $media == 'xs' ) {
-		@media only screen and (max-width: $screen-xs-max) { 
+		@media only screen and (max-width: $screen-xs-max) {
 			@content;
 		}
 	}
 	@else if( $media == 'sm' ) {
-		@media only screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
-			@content; 
+		@media only screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			@content;
 		}
 	}
 	@else if( $media == 'md' ) {
-		@media only screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) { 
-			@content; 
+		@media only screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+			@content;
 		}
 	}
 	@else if( $media == 'lg' ) {
-		@media only screen and (min-width: $screen-lg-min) { 
-			@content; 
+		@media only screen and (min-width: $screen-lg-min) {
+			@content;
 		}
 	}
 }
@@ -112,23 +112,23 @@
 // for min width usage
 @mixin min-width($media) {
 	 @if( $media == 'xs' ) {
-		@media only screen and (min-width: $screen-xs-min) { 
-			@content; 
+		@media only screen and (min-width: $screen-xs-min) {
+			@content;
 		}
 	}
 	@if( $media == 'sm' ) {
-		@media only screen and (min-width: $screen-sm-min) { 
-			@content; 
+		@media only screen and (min-width: $screen-sm-min) {
+			@content;
 		}
 	}
 	@else if( $media == 'md' ) {
-		@media only screen and (min-width: $screen-md-min) { 
-			@content; 
+		@media only screen and (min-width: $screen-md-min) {
+			@content;
 		}
 	}
 	@else if( $media == 'lg' ) {
-		@media only screen and (min-width: $screen-lg-min) { 
-			@content; 
+		@media only screen and (min-width: $screen-lg-min) {
+			@content;
 		}
 	}
 }
@@ -146,7 +146,7 @@
 	::-webkit-input-placeholder {@content}
 	:-moz-placeholder           {@content}
 	::-moz-placeholder          {@content}
-	:-ms-input-placeholder      {@content}  
+	:-ms-input-placeholder      {@content}
 }
 
 // usage:
@@ -157,9 +157,9 @@
 // }
 
 // page color mixin
-// mixin for the pages 
+// mixin for the pages
 @mixin page-color($color) {
-	
+
 	background-color: lighten($color, 5%);
 
 	a {
@@ -179,13 +179,14 @@
 		li.widget:nth-of-type(odd) {
 			background-color: $color;
 		}
-		
+
 		li.widget:nth-of-type(even)  {
 			background-color: lighten($color, 5%);
 		}
 	}
 
-	article {
+	article,
+	.toggle-bg-color {
 		background-color: lighten($color, 8%);
 		overflow: hidden;
 
@@ -202,7 +203,7 @@
 	section.items {
 		background-color: lighten($color, 8%);
 		overflow: hidden;
-		
+
 	}
 
 	table {

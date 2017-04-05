@@ -339,8 +339,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?version=1489566405083");
-  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix?version=1489566405083") format("embedded-opentype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff?version=1489566405083") format("woff"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.ttf?version=1489566405083") format("truetype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?version=1489566405083") format("svg");
+  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?version=1491391098355");
+  src: url("../img/../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix?version=1491391098355") format("embedded-opentype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff2?version=1491391098355") format("woff2"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.woff?version=1491391098355") format("woff"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.ttf?version=1491391098355") format("truetype"), url("../img/../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?version=1491391098355") format("svg");
 }
 
 .glyphicon {
@@ -8756,20 +8756,20 @@ button.close {
 
 /* functions */
 
-/* 
+/*
   .box {
 	@include center-element;
   }
 
 */
 
-/* 
+/*
 .box {
   @include vertically-centred;
 }
 */
 
-/* 
+/*
 .box {
   @include position(absolute, 10px, 10px, 10px, 10px);
 }
@@ -8865,28 +8865,28 @@ article blockquote h6 {
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-regular-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-regular-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-regular-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-regular-webfont.woff2?version=1491391098355") format("woff2"), url("../img/../fonts/hind/hind-regular-webfont.woff?version=1491391098355") format("woff"), url("../img/../fonts/hind/hind-regular-webfont.ttf?version=1491391098355") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-bold-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-bold-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-bold-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-bold-webfont.woff2?version=1491391098355") format("woff2"), url("../img/../fonts/hind/hind-bold-webfont.woff?version=1491391098355") format("woff"), url("../img/../fonts/hind/hind-bold-webfont.ttf?version=1491391098355") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-semibold-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-semibold-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-semibold-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-semibold-webfont.woff2?version=1491391098355") format("woff2"), url("../img/../fonts/hind/hind-semibold-webfont.woff?version=1491391098355") format("woff"), url("../img/../fonts/hind/hind-semibold-webfont.ttf?version=1491391098355") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Hind";
-  src: url("../img/../fonts/hind/hind-light-webfont.woff2?version=1489566405083") format("woff2"), url("../img/../fonts/hind/hind-light-webfont.woff?version=1489566405083") format("woff"), url("../img/../fonts/hind/hind-light-webfont.ttf?version=1489566405083") format("truetype");
+  src: url("../img/../fonts/hind/hind-light-webfont.woff2?version=1491391098355") format("woff2"), url("../img/../fonts/hind/hind-light-webfont.woff?version=1491391098355") format("woff"), url("../img/../fonts/hind/hind-light-webfont.ttf?version=1491391098355") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -9288,28 +9288,43 @@ main.container {
 }
 
 .home article,
+.home .toggle-bg-color,
 .single-post article,
+.single-post .toggle-bg-color,
 .error404 article,
+.error404 .toggle-bg-color,
 .search article,
-.beige article {
+.search .toggle-bg-color,
+.beige article,
+.beige .toggle-bg-color {
   background-color: #efede8;
   overflow: hidden;
 }
 
 .home article:nth-of-type(even),
+.home .toggle-bg-color:nth-of-type(even),
 .single-post article:nth-of-type(even),
+.single-post .toggle-bg-color:nth-of-type(even),
 .error404 article:nth-of-type(even),
+.error404 .toggle-bg-color:nth-of-type(even),
 .search article:nth-of-type(even),
-.beige article:nth-of-type(even) {
+.search .toggle-bg-color:nth-of-type(even),
+.beige article:nth-of-type(even),
+.beige .toggle-bg-color:nth-of-type(even) {
   background-color: #f7f6f4;
   overflow: hidden;
 }
 
 .home article blockquote,
+.home .toggle-bg-color blockquote,
 .single-post article blockquote,
+.single-post .toggle-bg-color blockquote,
 .error404 article blockquote,
+.error404 .toggle-bg-color blockquote,
 .search article blockquote,
-.beige article blockquote {
+.search .toggle-bg-color blockquote,
+.beige article blockquote,
+.beige .toggle-bg-color blockquote {
   background-color: #f7f6f4;
 }
 
@@ -9360,17 +9375,20 @@ main.container {
   background-color: #4dbfb1;
 }
 
-.turquoise article {
+.turquoise article,
+.turquoise .toggle-bg-color {
   background-color: #58c3b6;
   overflow: hidden;
 }
 
-.turquoise article:nth-of-type(even) {
+.turquoise article:nth-of-type(even),
+.turquoise .toggle-bg-color:nth-of-type(even) {
   background-color: #67c8bc;
   overflow: hidden;
 }
 
-.turquoise article blockquote {
+.turquoise article blockquote,
+.turquoise .toggle-bg-color blockquote {
   background-color: #67c8bc;
 }
 
@@ -9410,17 +9428,20 @@ main.container {
   background-color: #922a6a;
 }
 
-.purple article {
+.purple article,
+.purple .toggle-bg-color {
   background-color: #9e2d73;
   overflow: hidden;
 }
 
-.purple article:nth-of-type(even) {
+.purple article:nth-of-type(even),
+.purple .toggle-bg-color:nth-of-type(even) {
   background-color: #ae327f;
   overflow: hidden;
 }
 
-.purple article blockquote {
+.purple article blockquote,
+.purple .toggle-bg-color blockquote {
   background-color: #ae327f;
 }
 
@@ -9471,19 +9492,25 @@ main.container {
 }
 
 .single-event article,
-.blue article {
+.single-event .toggle-bg-color,
+.blue article,
+.blue .toggle-bg-color {
   background-color: #2e458d;
   overflow: hidden;
 }
 
 .single-event article:nth-of-type(even),
-.blue article:nth-of-type(even) {
+.single-event .toggle-bg-color:nth-of-type(even),
+.blue article:nth-of-type(even),
+.blue .toggle-bg-color:nth-of-type(even) {
   background-color: #334d9c;
   overflow: hidden;
 }
 
 .single-event article blockquote,
-.blue article blockquote {
+.single-event .toggle-bg-color blockquote,
+.blue article blockquote,
+.blue .toggle-bg-color blockquote {
   background-color: #334d9c;
 }
 
@@ -9530,17 +9557,20 @@ main.container {
   background-color: #f0d161;
 }
 
-.yellow article {
+.yellow article,
+.yellow .toggle-bg-color {
   background-color: #f2d56f;
   overflow: hidden;
 }
 
-.yellow article:nth-of-type(even) {
+.yellow article:nth-of-type(even),
+.yellow .toggle-bg-color:nth-of-type(even) {
   background-color: #f3da82;
   overflow: hidden;
 }
 
-.yellow article blockquote {
+.yellow article blockquote,
+.yellow .toggle-bg-color blockquote {
   background-color: #f3da82;
 }
 
