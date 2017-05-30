@@ -182,10 +182,10 @@ add_filter( 'login_headerurl', function() { ?>
 <?php
 });
 
-/* Change the admin footer #sluikreclame
+/* Change the admin footer 
 /* ------------------------------------ */
 add_filter( 'admin_footer_text', function() {
-	echo '<span id="footer-thankyou">'.__('This website is developed by', 'od').' <a href="http://www.occhio.nl/" target="_blank">Occhio</a> </span>';
+	echo '<span id="footer-thankyou">'.__('The template of this website is made available', 'od').' <a href="https://github.com/InternetSocietyChapters/isoc2017-wp" target="_blank">open source</a>.</span>';
 });
 
 /* Extra filter for the_title breakingpoints
