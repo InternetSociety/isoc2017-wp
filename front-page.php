@@ -30,7 +30,7 @@ $aPosts = get_posts( $aArgs );
 
 					<div class="entry">
 						<?php the_excerpt(); ?>
-						<a href="<?php echo get_permalink( $oPost->ID ); ?>"><?php _e('Lees meer', 'od'); ?></a>
+						<a href="<?php echo get_permalink( $oPost->ID ); ?>"><?php _e('Read more', 'od'); ?></a>
 					</div>
 				</article>
 
@@ -40,7 +40,7 @@ $aPosts = get_posts( $aArgs );
 					$postCategory = get_category($postId[0])->slug;
 				?>
 				<div class="see-all">
-					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>"><?php _e('Meer nieuws', 'od') ?></a>
+					<a class="btn btn-primary btn-lg" href="<?php echo '/' . $postCategory ?>"><?php _e('More news', 'od') ?></a>
 				</div>
 			</section>
 
