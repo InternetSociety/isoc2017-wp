@@ -13,9 +13,13 @@ More information - and the theme files themselves - can be found at:
 
 The issue tracker is public and *viewing* the issues is open to all. *Raising* an issue requires a [Github](http://www.github.com) account, but those are available for free.
 
-If you would like to see the theme in action, the following sites use it:
+There are more than 10 chapters working with the template and if you would like to see the theme in action, the following sites are already live:
 
-* [isoc.nl](http://www.isoc.nl/) (ISOC Netherlands)
+* [isoc.nl](https://www.isoc.nl/) (ISOC Netherlands)
+* [isoc.ye](http://isoc.ye/) (ISOC Yemen)
+* [isoc-bsig.org](http://www.isoc.nl/) (ISOC Blockchain Special Interest Group)
+* [isoc.org.ni](http://www.isoc.org.ni/) (ISOC Nicaragua)
+
 
 If you are using the theme and would like to have your site listed as an example, please email voorzitter at isoc.nl
 
