@@ -1,0 +1,708 @@
+# Copyright (C) 2017 Occhio Web Developers, Amsterdam NL
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: ISOC 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/isoc2017-wp\n"
+"POT-Creation-Date: 2017-10-06 12:01:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Knut Storvik <kstorvik@isoc.no>\n"
+"Language-Team: Norwegian <github@isoc.no>\n"
+
+#: admin-metabox-color.php:2 od/includes/metadata.php:24
+msgid "Page Color"
+msgstr ""
+
+#: admin-metabox-color.php:12
+msgid "Select a color for the body of this page."
+msgstr ""
+
+#: archive.php:42 front-page.php:33
+msgid "Read more"
+msgstr ""
+
+#: content-page.php:16 content.php:17
+msgid "Edit"
+msgstr ""
+
+#: front-page.php:43
+msgid "More news"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: od/classes/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: od/classes/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: od/classes/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: od/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:393
+#: od/classes/class-tgm-plugin-activation.php:920
+#: od/classes/class-tgm-plugin-activation.php:2626
+#: od/classes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:394
+#: od/classes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:395
+#: od/classes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: od/classes/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:1027
+#: od/classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:1214
+#: od/classes/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: od/classes/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: od/classes/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: od/classes/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: od/classes/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: od/classes/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: od/classes/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: od/classes/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: od/classes/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3602
+#: od/classes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3602
+#: od/classes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: od/classes/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: od/classes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: od/classes/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: od/classes/framework/class-socialmedia.php:27
+msgid ""
+"Vul hier de complete url in van de social media kanalen. Dat wil zeggen "
+"inclusief https:// of http://"
+msgstr ""
+
+#: od/core/class-posttype.php:41
+msgid "Parent Item:"
+msgstr ""
+
+#: od/core/class-taxonomy.php:68
+msgid "Scheid items met een komma"
+msgstr ""
+
+#: od/core/class-taxonomy.php:70
+msgid "Voeg items toe of verwijder ze"
+msgstr ""
+
+#: od/core/class-taxonomy.php:71
+msgid "Kies uit de meest gebruikte items"
+msgstr ""
+
+#: od/core/class-taxonomy.php:72
+msgid "Niet gevonden"
+msgstr ""
+
+#: od/core/nav/class-breadcrumb.php:12
+msgid "Home"
+msgstr ""
+
+#: od/core/nav/class-breadcrumb.php:15
+msgid "404"
+msgstr ""
+
+#: od/core/nav/class-breadcrumb.php:18
+msgid "Searchresults"
+msgstr ""
+
+#: od/includes/constants.php:4
+msgid "More items"
+msgstr ""
+
+#: od/includes/constants.php:5 search.php:38
+msgid "Back"
+msgstr ""
+
+#: od/includes/hooks-acf.php:69
+msgid "Header Title (optional)"
+msgstr ""
+
+#: od/includes/hooks-acf.php:79
+msgid "Check if you'd like to add an action button to the header."
+msgstr ""
+
+#: od/includes/hooks-acf.php:84
+msgid "Button Text"
+msgstr ""
+
+#: od/includes/hooks-acf.php:93
+msgid "Button Link"
+msgstr ""
+
+#: od/includes/hooks-acf.php:108 od/includes/hooks-acf.php:111
+msgid "Main Content"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:8
+msgid "Chapter Logo"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:11
+msgid ""
+"The Chapter Logo is used to display in the menu bar. Logos must be "
+"rectangular (landscape) and at least 200 pixels wide and 50 pixels tall."
+msgstr ""
+
+#: od/includes/hooks-customizer.php:20
+msgid "Menu Color"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:25
+msgid "Light"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:26
+msgid "Normal"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:31
+msgid "ISOC Defaults"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:39
+msgid "Default Header"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:42
+msgid ""
+"The Default Header is used as a fallback when no Featured Image is provided. "
+"Headers must be rectangular (landscape) and at least 1600 pixels wide and "
+"500 pixels tall."
+msgstr ""
+
+#: od/includes/hooks-customizer.php:48
+msgid "404 Page"
+msgstr ""
+
+#: od/includes/hooks-customizer.php:52
+msgid ""
+"The 404 Page is shown when the visitor ends up on a page that is not there."
+msgstr ""
+
+#: od/includes/hooks-customizer.php:117
+msgid "Oops! This page is not found"
+msgstr ""
+
+#: od/includes/hooks-plugins.php:67
+msgid ""
+"This page lists the required and recommended plugins.<br />- The "
+"<strong>required</strong> plugins are mandatory for making full use of this "
+"theme.<br />- The <strong>recommended</strong> plugins are some useful "
+"plugins that might come in hand when building/maintaining a WordPress site."
+msgstr ""
+
+#: od/includes/hooks-setup.php:21
+msgid "Uncategorized"
+msgstr ""
+
+#: od/includes/hooks-setup.php:23 od/includes/hooks.php:203
+#: od/includes/hooks.php:210 od/includes/hooks.php:211
+#: od/includes/hooks.php:216 od/includes/hooks.php:222
+#: od/includes/hooks.php:223
+msgid "News"
+msgstr ""
+
+#: od/includes/hooks.php:7
+msgid "What are you looking for?"
+msgstr ""
+
+#: od/includes/hooks.php:188
+msgid "The template of this website is made available"
+msgstr ""
+
+#: od/includes/hooks.php:204 od/includes/hooks.php:213
+#: od/includes/hooks.php:214
+msgid "Add news"
+msgstr ""
+
+#: od/includes/hooks.php:205
+msgid "News Tags"
+msgstr ""
+
+#: od/includes/hooks.php:212 od/includes/hooks.php:221
+msgid "All news"
+msgstr ""
+
+#: od/includes/hooks.php:215
+msgid "Edit news"
+msgstr ""
+
+#: od/includes/hooks.php:217
+msgid "View news"
+msgstr ""
+
+#: od/includes/hooks.php:218
+msgid "Zoek news"
+msgstr ""
+
+#: od/includes/hooks.php:219
+msgid "No news found"
+msgstr ""
+
+#: od/includes/hooks.php:220
+msgid "No news found in the trash"
+msgstr ""
+
+#: od/includes/menu.php:4
+msgid "Primary Navigation"
+msgstr ""
+
+#: od/includes/menu.php:72
+msgid "Add to Menu"
+msgstr ""
+
+#: od/includes/sidebar.php:6
+msgid "Sidebar Home"
+msgstr ""
+
+#: od/includes/sidebar.php:20
+msgid "Sidebar"
+msgstr ""
+
+#: search.php:22
+msgid " Search Results for "
+msgstr ""
+
+#: search.php:39
+msgid "More results"
+msgstr ""
+
+#: search.php:45
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: snippet-not-found.php:2
+msgid "Not Found"
+msgstr ""
+
+#: snippet-not-found.php:3
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:3
+#: tools/i18n/t/data/add-textdomain-0-result.php:4
+#: tools/i18n/t/data/add-textdomain-0.php:3
+#: tools/i18n/t/data/add-textdomain-0.php:4
+msgid "Hello World"
+msgstr ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:5
+#: tools/i18n/t/data/add-textdomain-0.php:5
+msgid "Single"
+msgid_plural "Plural"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:6
+#: tools/i18n/t/data/add-textdomain-0.php:6
+msgid "Single Noop"
+msgid_plural "Plural Noop"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:7
+#: tools/i18n/t/data/add-textdomain-0-result.php:8
+#: tools/i18n/t/data/add-textdomain-0.php:7
+#: tools/i18n/t/data/add-textdomain-0.php:8
+msgctxt "Testing"
+msgid "Hello World"
+msgstr ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:10
+msgctxt "test-domain"
+msgid "Hello World Noop"
+msgid_plural "Testing"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:11
+#: tools/i18n/t/data/add-textdomain-0-result.php:13
+#: tools/i18n/t/data/add-textdomain-0.php:11
+#: tools/i18n/t/data/add-textdomain-0.php:13
+msgid "Attribute"
+msgstr ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:12
+#: tools/i18n/t/data/add-textdomain-0-result.php:14
+#: tools/i18n/t/data/add-textdomain-0.php:12
+#: tools/i18n/t/data/add-textdomain-0.php:14
+msgid "HTML"
+msgstr ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:15
+#: tools/i18n/t/data/add-textdomain-0.php:15
+msgctxt "Testing"
+msgid "Attribute"
+msgstr ""
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:16
+#: tools/i18n/t/data/add-textdomain-0.php:16
+msgctxt "Testing"
+msgid "HTML"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "ISOC"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/occhiobv/isoc/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress theme for Internet Society Chapters (ISOC) developed by Occhio, "
+"Amsterdam"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Occhio Web Developers, Amsterdam NL"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.occhio.nl/"
+msgstr ""
