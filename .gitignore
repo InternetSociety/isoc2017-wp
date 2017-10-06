@@ -22,3 +22,10 @@ Thumbs.db
 
 # ignore large folders
 node_modules
+
+# ignorea misc. backup files
+*~
+.*.swp
+
+# ignore wordpress PO/MO translation tools directory
+tools/
