@@ -1,0 +1,751 @@
+# Copyright (C) 2017 Occhio Web Developers, Amsterdam NL
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: ISOC 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/isoc2017-wp\n"
+"POT-Creation-Date: 2017-10-06 12:01:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-10-07 05:17+0200\n"
+"Language-Team: Norwegian <github@isoc.no>\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: Knut Storvik <kstorvik@isoc.no>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+
+#: admin-metabox-color.php:2 od/includes/metadata.php:24
+msgid "Page Color"
+msgstr "Sidefarge"
+
+#: admin-metabox-color.php:12
+msgid "Select a color for the body of this page."
+msgstr "Velg en farge for denne siden."
+
+#: archive.php:42 front-page.php:33
+msgid "Read more"
+msgstr "Les mer"
+
+#: content-page.php:16 content.php:17
+msgid "Edit"
+msgstr "Rediger"
+
+#: front-page.php:43
+msgid "More news"
+msgstr "Vis flere nyheter"
+
+#: od/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Installer nødvendige utvidelser"
+
+#: od/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Installer utvidelser"
+
+#. translators: %s: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Installer utvidelser %s"
+
+#. translators: %s: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Oppdater utvidelser %s"
+
+#: od/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Noe gikk galt med utvidelsens API."
+
+#. translators: 1: plugin name(s).
+#: od/classes/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begynn innstallering av utvidelse"
+msgstr[1] "Begynn innstallering av utvidelser"
+
+#: od/classes/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Begynn oppdatering av utvidelse"
+msgstr[1] "Begynn oppdatering av utvidelser"
+
+#: od/classes/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begynn aktivering av utvidelse"
+msgstr[1] "Begynn aktivering av utvidelser"
+
+#: od/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Tilbake til installasjon av nødvendige utvidelser"
+
+#: od/classes/class-tgm-plugin-activation.php:393
+#: od/classes/class-tgm-plugin-activation.php:920
+#: od/classes/class-tgm-plugin-activation.php:2626
+#: od/classes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Tilbake til dashboardet"
+
+#: od/classes/class-tgm-plugin-activation.php:394
+#: od/classes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Utvidelsen ble aktivert."
+
+#: od/classes/class-tgm-plugin-activation.php:395
+#: od/classes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "Følgende utvidelse ble aktivert:"
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Intet utført. Utvidelsen %1$s var allerede aktiv."
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Utvidelse ikke aktivert. En nyere versjon av %s må installeres for dette "
+"temaet. Vennligst oppdater utvidelsen."
+
+#. translators: 1: dashboard link.
+#: od/classes/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle utvidelser installert og aktivert. %1$s"
+
+#: od/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Ignorer varsel"
+
+#: od/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Det finnes en eller flere nødvendige eller anbefalte utvidelser å "
+"installere, oppdatere eller aktivere."
+
+#: od/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Vennligst kontakt administrator for hjelp."
+
+#: od/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Følgende utvidelse må oppdateres for å være kompatibel med dette temaet."
+
+#: od/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Oppdatering nødvendig"
+
+#: od/classes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Sett opp parent_slug config variabelen i stedet."
+
+#: od/classes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Utvidelsen inneholder ikke en mappe med ønsket slug og endring av navn "
+"fungerte ikke."
+
+#: od/classes/class-tgm-plugin-activation.php:1027
+#: od/classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Vennligst kontakt leverandøren av utvidelsen og be dem pakke utvidelse i "
+"henhold til retningslinjene til WordPress."
+
+#: od/classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Den nedlastbare utvidelsen inneholder mer enn en fil, men filene er ikke "
+"pakket i en mappe."
+
+#: od/classes/class-tgm-plugin-activation.php:1214
+#: od/classes/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "og"
+
+#. translators: %s: version number
+#: od/classes/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: od/classes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Påkrevet"
+
+#: od/classes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Anbefalt"
+
+#: od/classes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress repositoriet"
+
+#: od/classes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Ekstern kilde"
+
+#: od/classes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Forhåndspakket"
+
+#: od/classes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Ikke installert"
+
+#: od/classes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installert, men ikke aktivert"
+
+#: od/classes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktiv"
+
+#: od/classes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Nødvendig oppdatering ikke tilgjengelig"
+
+#: od/classes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Må oppdateres"
+
+#: od/classes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Oppdatering anbefalt"
+
+#. translators: 1: install status, 2: update status
+#: od/classes/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Å installere <span class=\"count\">(%s)</span>"
+msgstr[1] "Å installere <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Oppdatering tilgjengelig <span class=\"count\">(%s)</span>"
+msgstr[1] "Oppdateringer tilgjengelig <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: od/classes/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "For å aktivere <span class=\"count\">(%s)</span>"
+msgstr[1] "For å aktivere <span class=\"count\">(%s)</span>"
+
+#: od/classes/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "ukjent"
+
+#: od/classes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Installert versjon:"
+
+#: od/classes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minste påkrevde versjon:"
+
+#: od/classes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Tilgjengelig versjon:"
+
+#: od/classes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Det finnes ingen utvidelser å installere, oppdatere eller aktivere."
+
+#: od/classes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Utvidelse"
+
+#: od/classes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Kilde"
+
+#: od/classes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Type"
+
+#: od/classes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Versjon"
+
+#: od/classes/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: od/classes/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr "Installer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: od/classes/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr "Oppdater %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: od/classes/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr "Aktiver %2$s"
+
+#: od/classes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Oppdateringsbeskjed fra utvikleren av utvidelsen:"
+
+#: od/classes/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installer"
+
+#: od/classes/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Oppdater"
+
+#: od/classes/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktiver"
+
+#: od/classes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Ingen utvidelser ble valgt for installering. Ingen handling utført."
+
+#: od/classes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Ingen utvidelser ble valgt for oppdatering. Ingen handling utført."
+
+#: od/classes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Ingen utvidelser tilgjengelig for installering."
+
+#: od/classes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Ingen utvidelser tilgjengelig for oppdatering."
+
+#: od/classes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Ingen utvidelser ble valgt for oppdatering. Ingen handling utført."
+
+#: od/classes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Ingen utvidelser tilgjengelig for aktivering."
+
+#: od/classes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Aktivering av utvidelse feilet."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: od/classes/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Oppdaterer utvidelse %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: od/classes/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "En feil oppstod under installasjon av %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr "Installasjonen av %1$s mislyktes."
+
+#: od/classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Installerings- og aktiveringsprosessen starter. Prosessen kan ta en stund "
+"hos noen tjenesteleverandører, så vennligst vær tålmodig."
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installert og aktivert."
+
+#: od/classes/class-tgm-plugin-activation.php:3602
+#: od/classes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Vis detaljer"
+
+#: od/classes/class-tgm-plugin-activation.php:3602
+#: od/classes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Skjul detaljer"
+
+#: od/classes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Alle installasjoner og aktiveringer er utført."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: od/classes/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installerer og aktiverer utvidelse %1$s (%2$d/%3$d)"
+
+#: od/classes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Installeringsprosessen starter. Prosessen kan ta en stund hos noen "
+"tjenesteleverandører, så vennligst vær tålmodig."
+
+#. translators: 1: plugin name.
+#: od/classes/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr "%1$s ble riktig installert."
+
+#: od/classes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Alle installasjoner er utført."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: od/classes/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installerer utvidelse %1$s (%2$d/%3$d)"
+
+# Orginal in dutch, must be changed.
+#: od/classes/framework/class-socialmedia.php:27
+msgid ""
+"Vul hier de complete url in van de social media kanalen. Dat wil zeggen "
+"inclusief https:// of http://"
+msgstr ""
+"Skriv inn de komplette nettadressene til sosiale mediekanaler her. "
+"Inkluderer https:// eller http:// i starten av nettadressene."
+
+#: od/core/class-posttype.php:41
+msgid "Parent Item:"
+msgstr "Overordnet element:"
+
+# Original text in Dutch, must be changed.
+#: od/core/class-taxonomy.php:68
+msgid "Scheid items met een komma"
+msgstr "Skill elementer med komma"
+
+# Original text in Dutch, must be changed.
+#: od/core/class-taxonomy.php:70
+msgid "Voeg items toe of verwijder ze"
+msgstr "Legg til eller fjern elementer"
+
+# Original text in Dutch, must be changed.
+#: od/core/class-taxonomy.php:71
+msgid "Kies uit de meest gebruikte items"
+msgstr "Velg blant de mest brukte elementene"
+
+# Original text in Dutch, must be changed.
+#: od/core/class-taxonomy.php:72
+msgid "Niet gevonden"
+msgstr "Ikke funnet"
+
+#: od/core/nav/class-breadcrumb.php:12
+msgid "Home"
+msgstr "Hjem"
+
+#: od/core/nav/class-breadcrumb.php:15
+msgid "404"
+msgstr "404"
+
+#: od/core/nav/class-breadcrumb.php:18
+msgid "Searchresults"
+msgstr "Søkeresultater"
+
+#: od/includes/constants.php:4
+msgid "More items"
+msgstr "Flere elementer"
+
+#: od/includes/constants.php:5 search.php:38
+msgid "Back"
+msgstr "Tilbake"
+
+#: od/includes/hooks-acf.php:69
+msgid "Header Title (optional)"
+msgstr "Tittel i toppteksten (valgfri):"
+
+#: od/includes/hooks-acf.php:79
+msgid "Check if you'd like to add an action button to the header."
+msgstr "Undersøk om du ønsker å legge til en handlingsknapp i toppteksten."
+
+#: od/includes/hooks-acf.php:84
+msgid "Button Text"
+msgstr "Tekst for knapp"
+
+#: od/includes/hooks-acf.php:93
+msgid "Button Link"
+msgstr "Lenke for knapp"
+
+#: od/includes/hooks-acf.php:108 od/includes/hooks-acf.php:111
+msgid "Main Content"
+msgstr "Hovedinnhold"
+
+#: od/includes/hooks-customizer.php:8
+msgid "Chapter Logo"
+msgstr "Kapittellogo"
+
+#: od/includes/hooks-customizer.php:11
+msgid ""
+"The Chapter Logo is used to display in the menu bar. Logos must be "
+"rectangular (landscape) and at least 200 pixels wide and 50 pixels tall."
+msgstr ""
+"Kapittellogoen vises i menylinjen. Logoer må være rektangulære (liggende/"
+"landskap) og ha en minimumsstørrelse på 200 piksler bredt og 50 piksler høyt."
+
+#: od/includes/hooks-customizer.php:20
+msgid "Menu Color"
+msgstr "Menyfarge"
+
+#: od/includes/hooks-customizer.php:25
+msgid "Light"
+msgstr "Lys"
+
+#: od/includes/hooks-customizer.php:26
+msgid "Normal"
+msgstr "Normal"
+
+#: od/includes/hooks-customizer.php:31
+msgid "ISOC Defaults"
+msgstr "ISOC standard Innstillinger"
+
+#: od/includes/hooks-customizer.php:39
+msgid "Default Header"
+msgstr "Standard topptekst"
+
+#: od/includes/hooks-customizer.php:42
+msgid ""
+"The Default Header is used as a fallback when no Featured Image is provided. "
+"Headers must be rectangular (landscape) and at least 1600 pixels wide and "
+"500 pixels tall."
+msgstr ""
+"Standard topptekst brukes som standard innstilling når ingen \"utvalgte "
+"bilder\" er valgt eller gjort tilgjengelige. Topptekster må være "
+"rektangulære (liggende/landskap) og minst 1600 piksler brede og 500 piksler "
+"høye."
+
+#: od/includes/hooks-customizer.php:48
+msgid "404 Page"
+msgstr "404-side"
+
+#: od/includes/hooks-customizer.php:52
+msgid ""
+"The 404 Page is shown when the visitor ends up on a page that is not there."
+msgstr "En 404-side vises når du ender opp på en side som ikke finnes."
+
+#: od/includes/hooks-customizer.php:117
+msgid "Oops! This page is not found"
+msgstr "Oops! Denne siden finnes ikke"
+
+#: od/includes/hooks-plugins.php:67
+msgid ""
+"This page lists the required and recommended plugins.<br />- The "
+"<strong>required</strong> plugins are mandatory for making full use of this "
+"theme.<br />- The <strong>recommended</strong> plugins are some useful "
+"plugins that might come in hand when building/maintaining a WordPress site."
+msgstr ""
+"Denne siden viser nødvendige og anbefalte utvidelser. <br> - "
+"<strong>Nødvendige</strong> utvidelser er obligatoriske for å gjøre full "
+"bruk av dette temaet.<br>- <strong>Anbefalte</strong> utvidelser er noen "
+"utvidelser som kan være nyttige når man skal bygge/vedlikeholde et WordPress-"
+"nettsted."
+
+#: od/includes/hooks-setup.php:21
+msgid "Uncategorized"
+msgstr "Ukategorisert"
+
+#: od/includes/hooks-setup.php:23 od/includes/hooks.php:203
+#: od/includes/hooks.php:210 od/includes/hooks.php:211
+#: od/includes/hooks.php:216 od/includes/hooks.php:222
+#: od/includes/hooks.php:223
+msgid "News"
+msgstr "Nyheter"
+
+#: od/includes/hooks.php:7
+msgid "What are you looking for?"
+msgstr "Hva leter du etter?"
+
+#: od/includes/hooks.php:188
+msgid "The template of this website is made available"
+msgstr "Malen for dette nettstedet er gjort tilgjengelig"
+
+#: od/includes/hooks.php:204 od/includes/hooks.php:213
+#: od/includes/hooks.php:214
+msgid "Add news"
+msgstr "Legg til nyheter"
+
+#: od/includes/hooks.php:205
+msgid "News Tags"
+msgstr "Nyhetsmerkinger"
+
+#: od/includes/hooks.php:212 od/includes/hooks.php:221
+msgid "All news"
+msgstr "Alle nyheter"
+
+#: od/includes/hooks.php:215
+msgid "Edit news"
+msgstr "Rediger nyheter"
+
+#: od/includes/hooks.php:217
+msgid "View news"
+msgstr "Vis nyheter"
+
+# Original text in Dutch, must be changed.
+#: od/includes/hooks.php:218
+msgid "Zoek news"
+msgstr "Søk i nyheter"
+
+#: od/includes/hooks.php:219
+msgid "No news found"
+msgstr "Ingen nyheter funnet"
+
+#: od/includes/hooks.php:220
+msgid "No news found in the trash"
+msgstr "Ingen nyheter funnet i papirkurven"
+
+#: od/includes/menu.php:4
+msgid "Primary Navigation"
+msgstr "Hovednavigasjon"
+
+#: od/includes/menu.php:72
+msgid "Add to Menu"
+msgstr "Legg til i meny"
+
+#: od/includes/sidebar.php:6
+msgid "Sidebar Home"
+msgstr "Sidepanelet hjem"
+
+#: od/includes/sidebar.php:20
+msgid "Sidebar"
+msgstr "Sidepanel"
+
+#: search.php:22
+msgid " Search Results for "
+msgstr "Søkeresultat for"
+
+#: search.php:39
+msgid "More results"
+msgstr "Flere resultater"
+
+#: search.php:45
+msgid "No posts found. Try a different search?"
+msgstr "Ingen poster funnet. Prøv et annet søk?"
+
+#: snippet-not-found.php:2
+msgid "Not Found"
+msgstr "Ikke funnet"
+
+#: snippet-not-found.php:3
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Beklager, men du leter etter noe som ikke er å finne her."
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:3
+#: tools/i18n/t/data/add-textdomain-0-result.php:4
+#: tools/i18n/t/data/add-textdomain-0.php:3
+#: tools/i18n/t/data/add-textdomain-0.php:4
+msgid "Hello World"
+msgstr "Hei verden"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:5
+#: tools/i18n/t/data/add-textdomain-0.php:5
+msgid "Single"
+msgid_plural "Plural"
+msgstr[0] "Enkel"
+msgstr[1] "Mange"
+
+# The Dutch word "Noop" mean "Anyway" in English. I dont understand the context, so it is impossible to translate accurately.
+#: tools/i18n/t/data/add-textdomain-0-result.php:6
+#: tools/i18n/t/data/add-textdomain-0.php:6
+msgid "Single Noop"
+msgid_plural "Plural Noop"
+msgstr[0] "Uansett"
+msgstr[1] "Uansett"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:7
+#: tools/i18n/t/data/add-textdomain-0-result.php:8
+#: tools/i18n/t/data/add-textdomain-0.php:7
+#: tools/i18n/t/data/add-textdomain-0.php:8
+msgctxt "Testing"
+msgid "Hello World"
+msgstr "Hei verden"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:10
+msgctxt "test-domain"
+msgid "Hello World Noop"
+msgid_plural "Testing"
+msgstr[0] "Hei verden. Uansett"
+msgstr[1] "Testing"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:11
+#: tools/i18n/t/data/add-textdomain-0-result.php:13
+#: tools/i18n/t/data/add-textdomain-0.php:11
+#: tools/i18n/t/data/add-textdomain-0.php:13
+msgid "Attribute"
+msgstr "Egenskap"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:12
+#: tools/i18n/t/data/add-textdomain-0-result.php:14
+#: tools/i18n/t/data/add-textdomain-0.php:12
+#: tools/i18n/t/data/add-textdomain-0.php:14
+msgid "HTML"
+msgstr "HTML"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:15
+#: tools/i18n/t/data/add-textdomain-0.php:15
+msgctxt "Testing"
+msgid "Attribute"
+msgstr "Egenskap"
+
+#: tools/i18n/t/data/add-textdomain-0-result.php:16
+#: tools/i18n/t/data/add-textdomain-0.php:16
+msgctxt "Testing"
+msgid "HTML"
+msgstr "HTML"
+
+#. Theme Name of the plugin/theme
+msgid "ISOC"
+msgstr "ISOC"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/occhiobv/isoc/"
+msgstr "https://github.com/InternetSocietyChapters/isoc2017-wp/"
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress theme for Internet Society Chapters (ISOC) developed by Occhio, "
+"Amsterdam"
+msgstr ""
+"Et WordPress malsett designet for  bruk av Internet Society (ISOC) kapitler "
+"og andre ISOC-relaterte entiteter for å opprette WordPress-nettsteder med "
+"det nye Internet Society merkevare og styling oppsettet fra 2016."
+
+#. Author of the plugin/theme
+msgid "Occhio Web Developers, Amsterdam NL"
+msgstr ""
+"Malen for dette nettstedet er gjort tilgjengelig for Internet Society "
+"kapitler som åpen kildekode."
+
+#. Author URI of the plugin/theme
+msgid "https://www.occhio.nl/"
+msgstr "https://github.com/InternetSocietyChapters/isoc2017-wp/"
