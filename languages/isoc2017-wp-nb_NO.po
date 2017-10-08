@@ -1,4 +1,4 @@
-# Copyright (C) 2017 Occhio Web Developers, Amsterdam NL
+# Copyright (C) 2017 Internet Society
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
