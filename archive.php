@@ -39,7 +39,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 				<div class="entry">
 					<?php the_excerpt(); ?>
-					<a href="<?php echo get_permalink(); ?>"><?php _e('Lees meer', 'od'); ?></a>
+					<a href="<?php echo get_permalink(); ?>"><?php _e('Read more', 'od'); ?></a>
 				</div>
 			</article>
 		<?php endwhile; ?>
