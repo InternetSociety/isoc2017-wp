@@ -108,13 +108,14 @@ function od_setup_page_color( $post_id, $color = NULL ) {
 		'Events'        => 'blue',
 		'European news' => 'turquoise',
 		'About'         => 'purple',
-		'Contact'       => 'yellow'
+		'Contact'       => 'yellow',
+		'Not found'     => 'beige'
 	);
 
 	if( $color == NULL ) {
 		$oPage = get_post( $post_id );
 		if( !isset($oPage->ID) ) { return; }
-		$color = $aBaseColors[$oPage->post_title];
+		$color = isset($aBaseColors[$oPage->post_title]) ? $aBaseColors[$oPage->post_title] : 'beige';
 	}
 	if( !in_array($color, $aBaseColors) ) {
 		$color = 'beige';
